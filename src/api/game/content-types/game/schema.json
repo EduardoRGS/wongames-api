@@ -24,7 +24,12 @@
       "type": "text"
     },
     "description": {
-      "type": "blocks"
+      "type": "customField",
+      "options": {
+        "output": "Markdown",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     },
     "price": {
       "type": "decimal",
